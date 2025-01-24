@@ -1,0 +1,10 @@
+package practice.solving;
+
+public class Problem_15 {
+	class Solution {
+	    public int solution(int num, int n) {
+	        int answer = num%n==0?1:0;
+	        return answer;
+	    }
+	}
+}
